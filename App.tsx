@@ -23,7 +23,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import DeviceInfo from 'react-native-device-info';
 
-const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbzAJIio7gmjMxt_2dkHpzz_ast9Tjcl6ZrEUXuoraJDemyE-bPWR8k5aByi5BIOIsgS/exec';
+const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbzAJIio7gmMxt_2dkHpzz_ast9Tjcl6ZrEUXuoraJDeyE-bPWR8k5aByi5BIOIsgS/exec';
 
 const ROOT_PATH = Platform.OS === 'android'
   ? RNFS.ExternalDirectoryPath + '/Sharemypdf'
